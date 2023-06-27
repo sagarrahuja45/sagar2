@@ -1,0 +1,503 @@
+
+@font-face {
+  font-family: Graphik-super;
+  src: url("../fonts/Graphik-Super-Trial.otf");
+}
+@font-face {
+  font-family: Graphik;
+  src: url("../fonts/Graphik-Semibold-Trial.otf");
+}
+@font-face {
+  font-family: Graphik-regular;
+  src: url("../fonts/Graphik-Regular-Trial.otf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.banner{
+  background-image: url("../images/d1216f82-7c00-4961-a874-4b9b98399a5d.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+
+}
+.icon1 {
+  width: 37px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.title {
+  width: 202.2px;
+  height: 99.7px;
+  object-fit: contain;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 602px;
+  object-fit: contain;
+}
+
+.innermain1 {
+  display: flex;
+  height: 100%;
+  object-fit: contain;
+}
+
+.innermain2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.Ellipse-2 {
+  display: flex;
+  width: 53px;
+  height: 53px;
+  border-radius: 28px;
+  background-color: #ffffff14;
+  align-items: center;
+}
+
+.technique-in-which-pigments-are-mixed-with-hot {
+  width: 708px;
+  height: 22px;
+  margin-top: 128.4px;
+  font-family: graphik-regular;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 2.33px;
+
+}
+
+.Acrylic-painting {
+  width: 718px;
+  height: 71px;
+  font-family: Graphik-super;
+  font-size: 71px;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  text-align: center;
+  color: #d8cf91;
+}
+
+.Path-8333 {
+  display: flex;
+  background-image: url("../images/Path\ 8333.png");
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 64px;
+  margin-top: 42px;
+  object-fit: contain;
+  align-items: center;
+justify-content: center;
+}
+
+.About-Me {
+  width: 86px;
+  height: 16px;
+  font-family: Graphik;
+  font-size: 16px;
+  margin-bottom: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.31;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.shopping-basket {
+  display: flex;
+  width: 22.9px;
+  height: 21px;
+  padding-left: 15.5px;
+  object-fit: contain;
+  align-items: center;
+}
+
+.About-Me {
+  width: 86px;
+  height: 16px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 69px;
+  justify-content: center;
+}
+
+.Rectangle-37 {
+  display: flex;
+  width: 57px;
+  height: 69px;
+  opacity: 0.04;
+  border-radius: 29px;
+  justify-content: center;
+  background-color: #fff1f1;
+}
+
+.middle1 {
+  height: 148px;
+  background-color: #161515
+}
+.banner2{
+  background-image: url("../images/Group\ 8833.png");
+  background-repeat: no-repeat;
+  background-size:   cover;
+}
+
+/* .container1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  object-fit: contain;
+} */
+
+.header2{
+  object-fit: contain;
+  height: 243px;
+}
+
+.Welcome {
+  position: relative;
+  max-width: 392px;
+  width: 100%;
+  height: 76px;
+  top: 19px;
+  left: 563px;
+  right: 411px;
+  font-family: graphik;
+  font-size: 76px;
+  font-weight: 600;
+  z-index: 1;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.51;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1c1b1c;
+}
+
+.Introduction {
+  display: flex;
+  max-width: 880px;
+  height: 84px;
+  position: relative;
+  justify-content: right;
+  z-index: 2;
+  font-family: graphik-super;
+  font-size: 84px;
+  font-weight: bolder;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.96;
+  letter-spacing: 8.96px;
+  text-align: center;
+  color: #4b4b4b;
+}
+.main2{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 0 260px 142px 206px;
+  object-fit: contain;
+}
+.Lorem{
+  width: 900px;
+  height: 306px;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.77;
+  letter-spacing: normal;
+  text-align: left;
+  color: #d8d8d8;
+}
+.middle2 {
+  position: relative;
+  max-width: 1366px;
+  width: 100%;
+  height: 209px;
+  background-color: #161515
+}
+.Acrylic {
+  position: relative;
+  width: 696px;
+  height: 74px;
+  font-family: Graphik;
+  margin-left: 228px;
+  font-size: 74px;
+  font-weight: 600;
+  z-index: 0;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.51;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1c1b1c;
+}
+.Handpainting {
+  width: 884px;
+  height: 84px;
+  position: absolute;
+  margin: 25px 0 0 -780px;
+  font-family: Graphik-super;
+  font-size: 84px;
+  z-index: 1;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.98;
+  letter-spacing: 15.96px;
+  text-align: center;
+  color: #4b4b4b;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1366px;
+  width: 100%;
+  height: 682px;
+  background-image: url("../images/Group\ 8740.png");
+  background-repeat: no-repeat;
+  background-size: 1366px 682px;
+  object-fit: contain;
+}
+.main3{
+  display: flex;
+  max-width: 1366px;
+  width: 100%;
+  height: 304.1px;
+  margin-top: 82px;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.images {
+  width: 244.3px;
+  height: 304.1px;
+  object-fit: contain;
+}
+.images1 {
+  width: 244.3px;
+  height: 304.1px;
+  margin-left: 77px;
+  object-fit: contain;
+}
+.images2 {
+  width: 244.3px;
+  height: 304.1px;
+  margin-right: 108.7px;
+  object-fit: contain;
+}
+.images3 {
+  width: 244.3px;
+  height: 304.1px;
+ margin: -66px 0 66px 0;
+  object-fit: contain;
+}
+.main4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 0;
+  max-width: 1366px;
+  width: 100%;
+  height: 354.7px;
+  margin-top: -244px;
+}
+.Rectangle-44 {
+  width: 247px;
+  height: 354.7px;
+  margin-left: 107px;
+  border: solid 1px #fff;
+  background-color: rgba(0, 0, 0, 0.28);
+}
+.Rectangle-45 {
+  width: 247px;
+  height: 354.7px;
+  border: solid 1px #fff;
+  background-color: rgba(0, 0, 0, 0.28);
+}
+.Rectangle-46 {
+  width: 247px;
+  height: 354.7px;
+  margin-right: 76px;
+  border: solid 1px #fff;
+  background-color: rgba(0, 0, 0, 0.28);
+}
+.Rectangle-47 {
+  width: 247px;
+  height: 421.6px;
+  margin-top: -66px;
+  border: solid 2px #d8cf91;
+  background-color: rgba(0, 0, 0, 0.28);
+}
+.fb{
+  display: flex;
+    width: 12.5px;
+    height: 24.8px;
+    object-fit: contain;
+}
+.insta{
+  width: 24.3px;
+  height: 24.3px;
+margin-top: 100px;
+  object-fit: contain;
+}
+img.arrows {
+  width: 23.2px;
+  height: 11.9px;
+  object-fit: contain;
+}
+
+
+@media screen and (max-width:991px) {
+  .banner{
+    background-position:center;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .header {
+    display: flex;
+    max-width: 991px;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    margin-top: 45px;
+  
+  }
+  
+  .icon1 {
+    width: 37px;
+    height: 16px;
+    object-fit: contain;
+  }
+  
+  .title {
+    width: 202.2px;
+    height: 99.7px;
+    object-fit: contain;
+    align-items: center;
+  } 
+  .technique-in-which-pigments-are-mixed-with-hot {
+    width: 508px;
+    height: 22px;
+    margin-top: 128.4px;
+    font-family: graphik-regular;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 2.33px;
+  
+  }
+  .Acrylic-painting {
+    width: 518px;
+    height: 71px;
+    font-family: Graphik-super;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    color: #d8cf91;
+  }
+  .Path-8333 {
+    margin-top: 22px;
+  }
+  .Welcome {
+    position: relative;
+    width: 200px;
+    height: 76px;
+    top: 19px;
+    left: 563px;
+    right: 411px;
+    font-family: graphik;
+    font-size: 60px;
+    font-weight: 600;
+    z-index: 1;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.51;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1c1b1c;
+  }
+  
+  .Introduction {
+    width: 680px;
+    height: 84px;
+    position: relative;
+    margin: 42px 0 0 0;
+    z-index: 2;
+    font-family: graphik-super;
+    font-size: 64px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.96;
+    letter-spacing: 8.96px;
+    text-align: center;
+    color: #4b4b4b;
+  }
+}
+@media screen and (max-width:360px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+    background-image: url("../images/Group\ 8710.png");
+    background-repeat: no-repeat;
+    background-size: 360px 641px;
+    object-fit: contain;
+  }
+  
+}
